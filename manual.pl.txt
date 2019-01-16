@@ -1431,7 +1431,7 @@ Gdy wpiszesz coś w wyszkiwarce Anki odnajdzie odpowiadające temu notatki oraz 
  -(kot or mysz) :: jak wyżej.
  "ten pies" :: wyszuka notatki dokładnie z wyrażeniem "ten pies".
  -"ten pies" :: wyszuka notatki dokładnie bez wyrażenia "ten pies.
- k_t :: wyszuka notatki z literami: t, <dowolną literą>, t, przykładowo: kat, kit itd.
+ k_t :: wyszuka notatki z literami: k, <dowolną literą>, t, przykładowo: kat, kit itd.
  k*t :: wyszuka notatki ze słowami rozpoczynającymi się od litery k i kończącymi się literą t, przykładowo: koloryt, kapitanat itd.
 
 Z powyższych przykładów wynika, że:
