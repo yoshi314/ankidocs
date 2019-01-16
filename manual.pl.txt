@@ -1431,16 +1431,17 @@ Gdy wpiszesz coś w wyszkiwarce Anki odnajdzie odpowiadające temu notatki oraz 
  -(kot or mysz) :: jak wyżej.
  "ten pies" :: wyszuka notatki dokładnie z wyrażeniem "ten pies".
  -"ten pies" :: wyszuka notatki dokładnie bez wyrażenia "ten pies.
- k_t :: wyszuka notatki z literami: d, <dowolną literą>, t, przykładowo: kat, kit itd.
+ k_t :: wyszuka notatki z literami: t, <dowolną literą>, t, przykładowo: kat, kit itd.
  k*t :: wyszuka notatki ze słowami rozpoczynającymi się od litery k i kończącymi się literą t, przykładowo: koloryt, kapitanat itd.
 
 Z powyższych przykładów wynika, że:
 
  * Szukane słowa oddzielone są zawsze spacją
- * When multiple search terms are provided, Anki looks for notes that match all of the terms
- * You can use "or" if you only need one of the terms to match
- * You can prepend a minus sign to a term to find notes that don't match
- * If you want to search for something including a space or parenthese, enclose it in quotes.
+ * Gdy podane zostanie wiele kryteriów wyszukiwania, Anki poszuka notatek
+   pasujących do wszystkich kryteriów
+ * Uzywając "or" można określić że jedynie jeden z podanych warunków musi być spełniony
+ * Warunek można poprzedzić znakiem "-" aby go zanegować.
+ * Tekst zawierający nawiasy lub spacje należy objąć cudzysłowami
  * Anki is only able to search within formatting in the <<fields,sort field>> you've configured. For example, if you add "**exa**mple" to one of your fields, this will not be matched when searching for "example" unless that field is the sort field.
 
 === Ograniczenie do pola ===
