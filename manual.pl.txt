@@ -1437,12 +1437,11 @@ Gdy wpiszesz coś w wyszkiwarce Anki odnajdzie odpowiadające temu notatki oraz 
 Z powyższych przykładów wynika, że:
 
  * Szukane słowa oddzielone są zawsze spacją
- * Gdy podane zostanie wiele kryteriów wyszukiwania, Anki poszuka notatek
-   pasujących do wszystkich kryteriów
+ * Gdy podane zostanie wiele kryteriów wyszukiwania, Anki poszuka notatek pasujących do wszystkich kryteriów
  * Uzywając "or" można określić że jedynie jeden z podanych warunków musi być spełniony
  * Warunek można poprzedzić znakiem "-" aby go zanegować.
  * Tekst zawierający nawiasy lub spacje należy objąć cudzysłowami
- * Anki is only able to search within formatting in the <<fields,sort field>> you've configured. For example, if you add "**exa**mple" to one of your fields, this will not be matched when searching for "example" unless that field is the sort field.
+ * Anki potrafi jedynie szukać wewnątrz formatowania w polach skonfigurowanych jako pola sortowania. Przykładowo, dodanie "**przy**kład" do jednego z pól sprawi że zapytanie "przykład" nie zwróci go, chyba że pole jest polem sortowania.
 
 === Ograniczenie do pola ===
 
